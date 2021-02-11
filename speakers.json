@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Sowmya Thottambeti",
+        "bio" : "another extremely really long bio",
+        "image": " ",
+        "homeCountry" : "The Bahamas",
+        "currentLocation": "Amsterdam, Netherlands ",
+        "jobTitle": "Software Engineer @ Nike",
+        "category": [
+            "Self Development",
+            "StartUp"
+        ],
+        "contact": {
+            "email": "sow98@gmail.com",
+            "linkedIn": "https://www.linkedin./",
+            "instagram": "https://www.instagra.poppin/"
+        },
+        "speakingExperience": "Beginner",
+        "links": [
+            { "description": "link1" },
+            { "description": "link2" }
+        ],
+        "appearances": [
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Nakeshia Latoya Lorde",
+        "bio" : "really really long bio",
+        "image": " ",
+        "homeCountry" : "Barbados",
+        "currentLocation": " ",
+        "jobTitle": "",
+        "category": [
+            "Journey into Tech"
+        ],
+        "contact": {
+            "email": "something@gmail.com",
+            "linkedIn": "", // optinal
+            "instagram": "" // optional
+        },
+        "speakingExperience": "Beginner",
+        "links": [], // optional
+        "appearances": [
+            "podcasts"
+        ]
+    }
+]
