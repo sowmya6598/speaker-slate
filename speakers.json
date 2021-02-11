@@ -36,11 +36,11 @@
         ],
         "contact": {
             "email": "something@gmail.com",
-            "linkedIn": "", // optinal
-            "instagram": "" // optional
+            "linkedIn": "",
+            "instagram": ""
         },
         "speakingExperience": "Beginner",
-        "links": [], // optional
+        "links": [],
         "appearances": [
             "podcasts"
         ]

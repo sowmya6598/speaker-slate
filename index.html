@@ -44,25 +44,12 @@
 												</span>
 												<a href="speaker.html">
 													<h3>${speaker.name}</h3>
-													<h4>${speaker.homeCountry}</h4>
-													<h4>${speaker.currentLocation}</h4>
-													<h4>${speaker.jobTitle}</h4>	
-													${Object.keys(speaker.contact).map(x => {
-														return `
-														<ul class="icons">
-															<li><a href="#" class="icon brands style1 fa-${x}"><span class="label">${x}</span></a></li>
-														</ul>
-														`
-													}).join('')} 
 													${speaker.category.map(x => {
 														return `
 														<ul>
 														<li>${x}</li>
 														</ul>`
 													}).join('')}
-													<div class="content">
-														<p>${speaker.shortDescription}</p>
-													</div>
 												</a>
 											</article>`
 										}))
