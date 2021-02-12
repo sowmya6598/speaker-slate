@@ -17,7 +17,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Women In Tech Caribbean</span>
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Women In Tech Caribbean</span>
 								</a>
 						</div>
 					</header>
@@ -43,13 +43,9 @@
 													<img src="images/pic01.jpg" alt="" />
 												</span>
 												<a href="speaker.html?name=${speaker.name}">
-													<h3>${speaker.name}</h3>
 													${speaker.category.map(x => {
-														return `
-														<ul>
-														<li>${x}</li>
-														</ul>`
-													}).join('')}
+														return `${x}`
+													}).join(' || ')}
 												</a>
 											</article>`
 										}))

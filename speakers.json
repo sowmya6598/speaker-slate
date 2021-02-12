@@ -1,13 +1,15 @@
 [
     {
         "name": "Sowmya Thottambeti",
-        "bio" : "",
+        "bio" : "a very nice bio here",
         "image": "",
         "homeCountry" : "The Bahamas",
         "currentLocation": "Amsterdam, Netherlands",
         "jobTitle": "Software Engineer @ Nike",
         "category": [
-    
+            "Journey into Tech",
+            "Soft Skills",
+            "UI/UX Design"
         ],
         "contact": {
             "email": "sowmya6598@gmail.com",
@@ -20,7 +22,11 @@
             { "description": "link2" }
         ],
         "appearances": [
-    
+            "Short Talks",
+            "Podcasts",
+            "Keynote Speeches",
+            "Fireside Chats",
+            "Workshops"
         ]
     },
     {
