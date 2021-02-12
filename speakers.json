@@ -2,7 +2,7 @@
     {
         "name": "Sowmya Thottambeti",
         "bio" : "another extremely really long bio",
-        "image": " ",
+        "image": "/images/pic14.jpg",
         "homeCountry" : "The Bahamas",
         "currentLocation": "Amsterdam, Netherlands ",
         "jobTitle": "Software Engineer @ Nike",
@@ -21,7 +21,9 @@
             { "description": "link2" }
         ],
         "appearances": [
-            "Fireside Chats"
+            "Fireside Chats",
+            "Monkeying around"
+            
         ]
     },
     {
@@ -36,11 +38,11 @@
         ],
         "contact": {
             "email": "something@gmail.com",
-            "linkedIn": "",
-            "instagram": ""
+            "linkedIn": null,
+            "instagram": null
         },
         "speakingExperience": "Beginner",
-        "links": [],
+        "links": null,
         "appearances": [
             "podcasts"
         ]

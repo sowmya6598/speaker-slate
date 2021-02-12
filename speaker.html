@@ -23,7 +23,127 @@
 					<div id="main">
 						<div class="inner">
 							<section class="tiles" id="app">
+								
+								<br/><br/>
+								
 								<script>
+									function parseURLParams(url) {
+										var queryStart = url.indexOf("?") + 1,
+											queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+											query = url.slice(queryStart, queryEnd - 1),
+											pairs = query.replace(/\+/g, " ").split("&"),
+											parms = {}, i, n, v, nv;
+
+										if (query === url || query === "") return;
+
+										for (i = 0; i < pairs.length; i++) {
+											nv = pairs[i].split("=", 2);
+											n = decodeURIComponent(nv[0]);
+											v = decodeURIComponent(nv[1]);
+
+											if (!parms.hasOwnProperty(n)) parms[n] = [];
+											parms[n].push(nv.length === 2 ? v : null);
+										}
+										return parms;
+									};
+
+									var urlString = window.location.href;
+									urlParams = parseURLParams(urlString);
+
+									var target = urlParams['name'][0];
+									// var test = document.getElementById('test').innerHTML = target;
+									console.log(target);
+
+									function fetchUserData(target) {
+										var People = {};
+										fetch("speakers.json")
+										.then(response => response.json())
+										.then(
+											data => data.filter(person => { 
+												if (person['name'].includes(target)){
+													console.log(person)
+													document.getElementById("app").innerHTML +=
+														`
+														<div>
+															<div class="col-1">
+																<img src="${person['image']}"alt="${person['name']}"> </img>
+															</div>
+															<br/><br/>
+															<div class="col-2">
+																<h3>Name: ${person['name']}</h3>
+																<h4>Country: ${person['homeCountry']}</h4>
+																<h4>Current Location: ${person['currentLocation']}</h4>
+																<h4>Job Title: ${person['jobTitle']}</h4>
+															</div>
+															<div>
+																<h6><span>Bio</span></h6>
+																<p>${person['bio']}</p>
+															</div>
+															<div>
+																<h5>Speaking Experience: ${person['speakingExperience']}</h5>
+
+																<h5>Appearances: 
+																	<ul><p>${person['appearances'].map(apperance => {
+																	return (
+																		`
+																			<li>
+																				${apperance}
+																			</li>
+																		`
+																	)
+																}).join(' ')}</p></ul></h5>
+															</div>
+															<div>
+																${person['links'] != null ? `
+																	<h5>Links: </h5>
+																		<ol>
+																			${person['links'].map(link => {
+																				return (
+																					`
+																						<li>
+																							<a href="${link['description']}" target= "_blank">${link['description']}"</a>
+																						</li>
+																					`	
+																				)
+																			}).join(' ')}
+																		</ol>
+																	`: `<span></span> `
+																}
+																<hr/>
+																<h5>Contacts:</h5>
+																<ul class="icons">
+			
+																	<li><a href="${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+
+																	${person['contact']['linkedIn'] != null ? `<li><a href="${person['contact']['linkedIn']}" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">GitHub</span></a></li> ` : `<span></span>`
+																	}
+ 
+																	${person['contact']['instagram'] != null ? `<li><a href="${person['contact']['instagram']}" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li> ` : `<span></span>`
+																	}
+
+																	${person['contact']['twitter'] != null ? `<li><a href="${person['contact']['twitter']}" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> ` : `<span></span>`
+																	}
+																	
+																</ul>
+															</div>
+														</div>
+														`
+												}
+											}
+										))
+										.catch(
+											error => {
+												console.log(error);
+												window.location.replace("/");
+											}
+										)
+									};
+
+									
+
+									var miss = fetchUserData(target);
+									console.log(miss);
+
 								</script>
 							</section>
 						</div>
