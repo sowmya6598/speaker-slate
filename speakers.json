@@ -103,8 +103,8 @@
         "bio" : "Kalifa is a researcher at the EdTech Hub (https://edtechhub.org/). Her research experience spans the fields of psychology, education and international development, with particular focus on the role of technology and media in those spheres. Kalifa has previously worked as a researcher at the University of the West Indies, where she also completed her BSc in Psychology, and at the University of Cambridge, where she also completed an MPhil at the Psychometrics Centre and a PhD at the centre for Research for Equitable Access and Learning.",
         "image": "/images/speakers/khalifa_damani.jpg",
         "homeCountry" : "Trinidad and Tobago",
-        "currentLocation": " ",
-        "jobTitle": "",
+        "currentLocation": "Cambridge, UK",
+        "jobTitle": "Researcher at the EdTech Hub",
         "category": [
             "Diversity and Inclusion",
             "Non-technical Talks",
@@ -112,7 +112,7 @@
             "Social Media & Social Psychology"
         ],
         "contact": {
-            "email": null,
+            "email": "kalifa.damani@edtechhub.org",
             "linkedIn": null,
             "instagram": null
         },
@@ -204,17 +204,17 @@
     {
         "name": "Melyssa Minto",
         "bio" : "Melyssa Minto is from Jamaica, but was raised in Durham, NC. She received a B.S. in Mathematics and Biology at Meredith College. Currently, she is a PhD Candidate in the Computational Biology & Bioinformatics program at Duke University where she is researching how to use Bayesian statistics to model gene activating and silencing modifications bound to DNA throughout the maturation of neurons in the West Lab. Melyssa is passionate about empowering brown and black youth in Tech. She regularly volunteers with Black Girls Code and in local high schools.",
-        "image": "",
+        "image": "/images/speakers/melyssa_minto.jpg",
         "homeCountry" : "Jamaica",
-        "currentLocation": " ",
-        "jobTitle": "",
+        "currentLocation": "Durham, USA",
+        "jobTitle": "Computational Biology & Bioinformatics Graduate Student at Duke University",
         "category": [
             "Computational Genomics",
             "Graduate School",
             "Journey to Computational Biology"
         ],
         "contact": {
-            "email": null,
+            "email": "melyssa.minto@duke.edu",
             "linkedIn": null,
             "instagram": null
         },
