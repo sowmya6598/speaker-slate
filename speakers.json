@@ -17,6 +17,7 @@
             "instagram": "https://www.instagram.com/scottie.poppin/"
         },
         "speakingExperience": "Intermediate",
+        "description": null,
         "links": [
             { "description": "link1" },
             { "description": "link2" }
@@ -45,6 +46,7 @@
             "instagram": null
         },
         "speakingExperience": "Beginner",
+        "description": "Girls in Tech",
         "links": null,
         "appearances": [
             "Short Talks",
@@ -72,6 +74,7 @@
             "instagram": null
         },
         "speakingExperience": "Seasoned",
+        "description": "I have spoken at various conferences globally, hosted panel discussions and discussions.",
         "links": [
             { "description": "https://events.sap.com/teched/en/session/28896" },
             { "description": "https://www.youtube.com/watch?v=8e94kSp4kXk&index=2&list=PLpQebylHrdh5iHxXV5dN66xTiw-ce-C-1" },
@@ -117,6 +120,7 @@
             "instagram": null
         },
         "speakingExperience": "Intermediate",
+        "description": null,
         "links": null,
         "appearances": [
             "Short Talks",
@@ -141,6 +145,7 @@
             "instagram": null
         },
         "speakingExperience": "Intermediate",
+        "description": "Online public zoom interviews, Caribbean Girls Hack speaker",
         "links": [
             { "description": "https://youtu.be/CsNX5HTW984" }
         ],
@@ -166,6 +171,7 @@
             "instagram": null
         },
         "speakingExperience": "Intermediate",
+        "description": "TO DO !!!!",
         "links": [
             { "description": "https://youtu.be/7NR2GnOUHlA" }
         ],
@@ -195,6 +201,7 @@
             "instagram": null
         },
         "speakingExperience": "Intermediate",
+        "description": "Talks about D&I, Black scientists and journey to tech at conferences (~200 people), events (~100 people) and Webinars (<200 people).",
         "links": null,
         "appearances": [
             "Short Talks",
@@ -219,6 +226,7 @@
             "instagram": null
         },
         "speakingExperience": "Beginner",
+        "description": "3 years of science talks. 5 years of personal journey talks",
         "links": null,
         "appearances": [
             "Short Talks",
@@ -243,6 +251,7 @@
             "instagram": null
         },
         "speakingExperience": "Intermediate",
+        "description": "Youth Climate Experts with Building Bridges 4 Climate Action",
         "links": [
             { "description": "https://klimadelegation.de/en/bb4ca-young-climate-experts/" }
         ],
