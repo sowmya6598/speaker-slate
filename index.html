@@ -15,14 +15,12 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
-
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Women In Tech Caribbean</span>
+									<span class="title">Women In Tech Caribbean</span>
 								</a>
 						</div>
 					</header>
-
 
 				<!-- Main -->
 					<div id="main">
@@ -30,7 +28,7 @@
 							<header>
 								<h1>Speaker Slate<br />
 								something more i guess.</h1>
-								<p>Interested in joining our speaker slate? Click <a href="http://html5up.net">here</a> to submit your pull request.</p>
+								<p>Interested in joining our speaker slate? Click <a href="https://github.com/womenintechcaribbean/speakers">here</a> to submit your pull request.</p>
 							</header>
 							<section class="tiles" id="app" >
 
@@ -41,10 +39,10 @@
 											document.getElementById("app").innerHTML +=
 											`<article class="style2">
 												<span class="image">
-													<img src="images/pic01.jpg" alt="" />
+													<img src="images/pic03.jpg" alt="" />
 												</span>
 												<a href="speaker.html?name=${speaker.name}">
-													${speaker.category.map(x => {
+													${speaker.category.sort().map(x => {
 														return `${x}`
 													}).join(' || ')}
 												</a>
@@ -59,12 +57,13 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
+								<!-- <span class="symbol"><img src="images/logo.png" alt="" /></span> -->
 								<h2>Follow</h2>
 								<ul class="icons">
-									<li><a href="#" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" target="_blank" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://twitter.com/womencaribbean" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.instagram.com/womenintechcaribbean/" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/womenintechcaribbean" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:caribbeanwit@gmail.com" target="_blank" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 						</div>

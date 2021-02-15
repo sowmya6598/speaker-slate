@@ -107,7 +107,7 @@
 																<h5>Contacts:</h5>
 																<ul class="icons">
 			
-																	<li><a href="${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+																	<li><a href="mailto:${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 
 																	${person['contact']['linkedIn'] != null ? `<li><a href="${person['contact']['linkedIn']}" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">GitHub</span></a></li> ` : `<span></span>`
 																	}
