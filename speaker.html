@@ -65,17 +65,17 @@
 															<div class="col-2 hover">
 																<h3> ${person["name"]}</h3>
 																<h4>Job Title: <span>${person["jobTitle"]}</span></h4>
-																												<h4> from: <span>${person["homeCountry"]}</span></h4>
+																<h4> From: <span>${person["homeCountry"]}</span></h4>
 																<h4>Current Location: <span>${person["currentLocation"]}</span></h4>
 																
 															</div>
 															<div class="bio hover">
-																<h6><span>Bio</span></h6>
+																<h6><span>About Me</span></h6>
 																<p>${person['bio']}</p>
 															</div>
 															<div class="experience hover">
 																<h5>Speaking Experience: <span>${person['speakingExperience']}</span></h5>
-																<h5>Description of Speaking Experience: ${person['description']}</h5>
+																${person['description'] != null ? `<h5>Description of Speaking Experience: ${person['description']}</h5>` : `<span></span>`}
 																<h5>Appearances: 
 																	<ul><p>${person['appearances'].map(apperance => {
 																	return (
@@ -104,7 +104,7 @@
 																	`: `<span></span> `
 																}
 																<hr/>
-																<h5>Contacts:</h5>
+																<h5>Let's Connect!</h5>
 																<ul class="icons">
 			
 																	<li><a href="mailto:${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>

@@ -14,7 +14,8 @@
         "contact": {
             "email": "sowmya6598@gmail.com",
             "linkedIn": "https://www.linkedin.com/in/sowmyathottambeti/",
-            "instagram": "https://www.instagram.com/scottie.poppin/"
+            "instagram": "https://www.instagram.com/scottie.poppin/",
+            "twitter": null
         },
         "speakingExperience": "Intermediate",
         "description": null,
@@ -43,7 +44,8 @@
         "contact": {
             "email": "something@gmail.com",
             "linkedIn": null,
-            "instagram": null
+            "instagram": null,
+            "twitter": null
         },
         "speakingExperience": "Beginner",
         "description": "Girls in Tech",
@@ -70,8 +72,9 @@
         ],
         "contact": {
             "email": null,
-            "linkedIn": "https://www.linkedin.com/in/raquelseville/",
-            "instagram": null
+            "linkedIn": "https://www.linkedin.com/in/raquelseville",
+            "instagram": "https://www.instagram.com/quelzseville",
+            "twitter": "https://twitter.com/quelzseville"
         },
         "speakingExperience": "Seasoned",
         "description": "I have spoken at various conferences globally, hosted panel discussions and discussions.",
@@ -117,7 +120,8 @@
         "contact": {
             "email": "kalifa.damani@edtechhub.org",
             "linkedIn": null,
-            "instagram": null
+            "instagram": null,
+            "twitter": null
         },
         "speakingExperience": "Intermediate",
         "description": null,
@@ -142,7 +146,8 @@
         "contact": {
             "email": null,
             "linkedIn": null,
-            "instagram": null
+            "instagram": null,
+            "twitter": null
         },
         "speakingExperience": "Intermediate",
         "description": "Online public zoom interviews, Caribbean Girls Hack speaker",
@@ -160,7 +165,7 @@
         "bio" : "Majella Mark is a researcher, writer and artist, who have worked as a data analyst in the media tech industry for many years. She has conducted numerous workshops and collaborations such as The Pvssy Plate Painting Party, The Wakanda Workshop, Colorism in Conversation with The Guardian and Black Women's Day of Meditation. When she is not running a workshop or writing she is managing data analytics for the women's health justice group Womanly. Her published work can be seen in digital publications such as CultureBanx and An Injustice. She is also a member of the Black Women's Blueprint. You can follow her on Twitter @MajellaMark and Instagram @MetGodShesBlack. You can also find out more about Majella on www.majellamark.com",
         "image": "",
         "homeCountry" : "Grenada",
-        "currentLocation": " ",
+        "currentLocation": "",
         "jobTitle": "",
         "category": [
             "Social Justice Issues, POC"
@@ -168,7 +173,8 @@
         "contact": {
             "email": null,
             "linkedIn": null,
-            "instagram": null
+            "instagram": "https://www.instagram.com/metgodshesblack",
+            "twitter": "https://twitter.com/majellamark"
         },
         "speakingExperience": "Intermediate",
         "description": "TO DO !!!!",
@@ -198,7 +204,8 @@
         "contact": {
             "email": null,
             "linkedIn": "https://www.linkedin.com/in/leannapdixon/",
-            "instagram": null
+            "instagram": null,
+            "twitter": null
         },
         "speakingExperience": "Intermediate",
         "description": "Talks about D&I, Black scientists and journey to tech at conferences (~200 people), events (~100 people) and Webinars (<200 people).",
@@ -223,7 +230,9 @@
         "contact": {
             "email": "melyssa.minto@duke.edu",
             "linkedIn": null,
-            "instagram": null
+            "instagram": null,
+            "twitter": "https://twitter.com/melyssaminto"
+
         },
         "speakingExperience": "Beginner",
         "description": "3 years of science talks. 5 years of personal journey talks",
@@ -248,7 +257,8 @@
         "contact": {
             "email": null,
             "linkedIn": "https://www.linkedin.com/in/chandelleoneil/",
-            "instagram": null
+            "instagram": null,
+            "twitter": null
         },
         "speakingExperience": "Intermediate",
         "description": "Youth Climate Experts with Building Bridges 4 Climate Action",
