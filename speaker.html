@@ -16,7 +16,7 @@
 						<div class="inner">
 							<section class="tiles" id="app">
 								
-								<br/><br/>
+								
 								
 								<script>
 									function parseURLParams(url) {
@@ -56,23 +56,25 @@
 													console.log(person)
 													document.getElementById("app").innerHTML +=
 														`
-														<div>
-															<div class="col-1">
-																<img src="${person['image']}"alt="${person['name']}"> </img>
+														<div class="content-wrapper">
+															<div class="inner-row">
+																<div class="col-1">
+																<img src="${person["image"]}"alt="${person["name"]}"> </img>
+                               													 </div>
+															
+															<div class="col-2 hover">
+																<h3> ${person["name"]}</h3>
+																<h4>Job Title: <span>${person["jobTitle"]}</span></h4>
+																												<h4> from: <span>${person["homeCountry"]}</span></h4>
+																<h4>Current Location: <span>${person["currentLocation"]}</span></h4>
+																
 															</div>
-															<br/><br/>
-															<div class="col-2">
-																<h3>Name: ${person['name']}</h3>
-																<h4>Country: ${person['homeCountry']}</h4>
-																<h4>Current Location: ${person['currentLocation']}</h4>
-																<h4>Job Title: ${person['jobTitle']}</h4>
-															</div>
-															<div>
+															</div class="bio hover">
 																<h6><span>Bio</span></h6>
 																<p>${person['bio']}</p>
 															</div>
-															<div>
-																<h5>Speaking Experience: ${person['speakingExperience']}</h5>
+															<div class="experience hover">
+																<h5>Speaking Experience: <span>${person['speakingExperience']}</span></h5>
 																<h5>Description of Speaking Experience: ${person['description']}</h5>
 																<h5>Appearances: 
 																	<ul><p>${person['appearances'].map(apperance => {
@@ -85,7 +87,7 @@
 																	)
 																}).join(' ')}</p></ul></h5>
 															</div>
-															<div>
+															<div class="links">
 																${person['links'] != null ? `
 																	<h5>Links: </h5>
 																		<ol>
