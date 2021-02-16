@@ -76,7 +76,7 @@
 															<div class="experience hover">
 																<h5>Speaking Experience: <span>${person['speakingExperience']}</span></h5>
 																${person['description'] != null ? `<h5>Description of Speaking Experience: ${person['description']}</h5>` : `<span></span>`}
-																<h5>Appearances: 
+																<h5>I am open to doing: 
 																	<ul><p>${person['appearances'].map(apperance => {
 																	return (
 																		`
@@ -101,7 +101,7 @@
 																				)
 																			}).join(' ')}
 																		</ol>
-																	`: `<span></span> `
+																	`: `<h5>Relevant Links: </h5><p>Nothing to Show </p>`
 																}
 																<hr/>
 																<h5>Let's Connect!</h5>
