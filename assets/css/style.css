@@ -82,3 +82,17 @@ h6 {
 .hover:hover > h3 {
   color: white !important;
 }
+
+.hover:hover > h4 span {
+  color: white !important;
+}
+
+.experience h4 {
+  font-size: 1.2rem;
+}
+
+.experience h4 span {
+  font-size: 1.6rem;
+  color: #f2849e;
+  font-weight: 600;
+}
