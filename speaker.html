@@ -43,8 +43,6 @@
 									urlParams = parseURLParams(urlString);
 
 									var target = urlParams['name'][0];
-									// var test = document.getElementById('test').innerHTML = target;
-									console.log(target);
 
 									function fetchUserData(target) {
 										var People = {};
@@ -59,37 +57,30 @@
 														<div class="content-wrapper">
 															<div class="inner-row">
 																<div class="col-1">
-																<img src="${person["image"]}"alt="${person["name"]}"> </img>
-                               													 </div>
+																${person["image"] != null ? `<img src="${person["image"]}"alt="${person["name"]}"> </img>` : `<span></span>`}
+                               									</div>
 															
 															<div class="col-2 hover">
 																<h3> ${person["name"]}</h3>
-																<h4>Job Title: <span>${person["jobTitle"]}</span></h4>
-																<h4> From: <span>${person["homeCountry"]}</span></h4>
-																<h4>Current Location: <span>${person["currentLocation"]}</span></h4>
-																
+																<h4>Current Position: <span>${person["jobTitle"]}</span></h4>
+																<h4>Home Country: <span>${person["homeCountry"]}</span></h4>
+																<h4>Location: <span>${person["currentLocation"]}</span></h4>
 															</div>
 															<div class="bio hover">
-																<h6><span>About Me</span></h6>
-																<p>${person['bio']}</p>
+																<h4>About Me</h4>
+																<p>${person['bio'].replaceAll('\n', '<br /><br />').replaceAll('--', '<li />')}</p>
 															</div>
 															<div class="experience hover">
-																<h5>Speaking Experience: <span>${person['speakingExperience']}</span></h5>
-																${person['description'] != null ? `<h5>Description of Speaking Experience: ${person['description']}</h5>` : `<span></span>`}
-																<h5>I am open to doing: 
-																	<ul><p>${person['appearances'].map(apperance => {
-																	return (
-																		`
-																			<li>
-																				${apperance}
-																			</li>
-																		`
-																	)
-																}).join(' ')}</p></ul></h5>
+																<h5>My speaking experience is <span>${person['speakingExperience']}</span></h5>
+																${person['description'] != null ? `<h5><span>Description of Speaking Experience: </span> ${person['description'].replaceAll('\n', '<br /><br />').replaceAll('--', '<li />')}</h5>` : `<span></span>`}
+																<h5>I am open to doing ... 
+																	<span>${person['appearances'].map(apperance => {
+																	return (`${apperance}`)
+																}).join(', ')}</span></h5>
 															</div>
 															<div class="links">
 																${person['links'] != null ? `
-																	<h5>Links: </h5>
+																	<h4>Relevant Links: </h4>
 																		<ol>
 																			${person['links'].map(link => {
 																				return (
@@ -101,10 +92,10 @@
 																				)
 																			}).join(' ')}
 																		</ol>
-																	`: `<h5>Relevant Links: </h5><p>Nothing to Show </p>`
+																	`: `<h4>Relevant Links: </h4><p>Nothing to Show </p>`
 																}
 																<hr/>
-																<h5>Let's Connect!</h5>
+																<h4>Let's Connect!</h4>
 																<ul class="icons">
 			
 																	<li><a href="mailto:${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>

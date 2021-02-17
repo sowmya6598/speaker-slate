@@ -36,9 +36,20 @@ h4 span {
   font-size: 1.3rem;
 }
 
+h5 {
+  text-transform: capitalize;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+h5 span {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #f2849e;
+}
+
 h2,
 h4,
-h5,
 h6 {
   text-transform: capitalize;
   font-size: 1.35rem;
@@ -87,12 +98,6 @@ h6 {
   color: white !important;
 }
 
-.experience h4 {
-  font-size: 1.2rem;
-}
-
-.experience h4 span {
-  font-size: 1.6rem;
-  color: #f2849e;
-  font-weight: 600;
+.hover:hover > h5 span {
+  color: white !important;
 }
