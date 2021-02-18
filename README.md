@@ -1,8 +1,8 @@
 # Speaker Slate
 
-People around the the world are constantly looking to build a more diverse panel of speakers for their events, but have difficulty finding people who are willing to take part in talks.
+People around the world are constantly looking to build a more diverse panel of speakers for their events, but they are having difficulty in finding said people who are willing to partake in them.
 
-The Speaker Slate was created to showcase the amazing talent we have within our organization. This will allow the opportunity to be contacted directly to take part in talks, or other public appearances. 
+The Speaker Slate was created to showcase the amazing talent we have within our organization. This platform will allow speakers to be contacted directly to take part in talks and/or other public appearances.
 
 > created & maintained by Sowmya Thottambeti
 
