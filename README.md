@@ -8,11 +8,17 @@ The Speaker Slate was created to showcase the amazing talent we have within our 
 
 # How to Join?
 
-1. Checkout the main branch & create a feature branch locally
+####  Step 1
 
-2. Navigate to the file, `speakers.json`. **Note:** This JSON file contains all the information pertaining to the various speakers
+Checkout the main branch & create a feature branch locally
 
-3.  Create an object for yourself with the following properties:
+####  Step 2
+
+Navigate to the file, `speakers.json`. **Note:** This JSON file contains all the information pertaining to the various speakers
+
+####  Step 3 
+
+Create an object for yourself with the following properties:
 
 - **name** *(string)* -- your full name
 
@@ -42,6 +48,11 @@ The Speaker Slate was created to showcase the amazing talent we have within our 
 
 - **appearances** *(array of string)* -- what type of appearances are you willing to partake in?
 
-5. Upon completion, push the code to your feature branch and create a pull request against the main branch. The title of the pull request should be "Submission for firstName lastName".
+####  Step 4 
 
-6. The product owner will review the pull request & if everything looks good, congrats -- you've made it to the speaker slate :tada:
+Upon completion, push the code to your feature branch and create a pull request against the main branch. The title of the pull request should be "Submission for firstName lastName".
+
+
+####  Step 5
+
+The product owner will review the pull request & if everything looks good, congrats -- you've made it to the speaker slate :tada:
