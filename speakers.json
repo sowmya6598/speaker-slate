@@ -135,17 +135,17 @@
     {
         "name": "Gabrielle Abraham",
         "bio": "Education- MSc Geospatial Science \nBsc - geography \nCurrent position- GIS research associate \nOwner of Incognito Experience event company in Dominica \nPast- GIS technician",
-        "image": null,
+        "image": "/images/speakers/gabrielle_abraham.jpg",
         "homeCountry": "Dominica",
-        "currentLocation": "",
-        "currentPosition": "",
+        "currentLocation": "Dominica",
+        "currentPosition": "Geospatial Scientist",
         "category": [
             "GIS",
             "Event Planning"
         ],
         "contact": {
-            "email": null,
-            "linkedIn": null,
+            "email": "gabraham@monainformatixltd.com",
+            "linkedIn": "gabrielle-c-abraham-87795166",
             "instagram": null,
             "twitter": null
         },
@@ -267,6 +267,32 @@
         "appearances": [
             "Short Talks",
             "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Danielle Trotman",
+        "bio": "Originally from Barbados Danielle, recently completed her continuing studies at York University in Fundamentals of Cyber security. Prior she completed her Post Secondary Diploma at Centennial College in Computer Systems Technology and completed her BSc in Computer Studies at the University of the West Indies, Cave hill campus. Currently Danielle is based in Toronto, Canada and working in the digital banking sector as a IT Operations Analyst.",
+        "image": null,
+        "homeCountry": "Barbados",
+        "currentLocation": "Toronto, Canada",
+        "currentPosition": "IT Operations Analyst",
+        "category": [
+            "Journey into Tech",
+            "Social Justice Issues(WOC)",
+            "Non-technical Talks"
+        ],
+        "contact": {
+            "email": "danielle.c.trotman@gmail.com",
+            "linkedIn": "danielle-trotman",
+            "instagram": "thelifeintech",
+            "twitter": null
+        },
+        "speakingExperience": "Beginner",
+        "description": null,
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts"
         ]
     }
 ]
