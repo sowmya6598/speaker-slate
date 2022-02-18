@@ -15,7 +15,7 @@
             "email": "sowmya6598@gmail.com",
             "linkedIn": "sowmyathottambeti",
             "instagram": "scottie.poppin",
-            "twitter": null
+            "twitter": "scottiepoppin"
         },
         "speakingExperience": "Intermediate",
         "description": null,
@@ -293,6 +293,36 @@
         "appearances": [
             "Short Talks",
             "Podcasts"
+        ]
+    },
+    {
+        "name": "Kimberley Demagny",
+        "bio": "I’m Kimberley, proud Caribbean from Guadeloupe, and Marketing & Digital Specialist (Art, Culture & Education) I’ve been working for +80 clients in the Caribbean, Europe & USA for +10 years. / I’m also the founder of Caribeart, one of the leading digital media hubs offering highlights of emerging visual artists, artworks, and art events from the Caribbean for art lovers worldwide. (+35 million views since 2018.)",
+        "image": "/images/speakers/kimberley_demagny.png",
+        "homeCountry": "Guadeloupe",
+        "currentLocation": "Guadeloupe",
+        "currentPosition": "Founder at Caribeart, Marketing & Digital Specialist, Co-Founder at Whistle ",
+        "category": [
+            "Marketing", 
+            "Digital",
+            "Culture & Art", 
+            "Education",
+            "Business Strategy", 
+            "Growth Hacking"
+        ],
+        "contact": {
+            "email": "contact@caribeart.net",
+            "linkedIn": "kimberley-demagny-217433a8",
+            "instagram": null,
+            "twitter": "demagny_kim"
+        },
+        "speakingExperience": "Beginner",
+        "description": "I’ve done conferences and taught skills training for 2 years. My latest experience was in one of the most popular art events in the Caribbean: /I was the main speaker at Pool Art Fair, about « Art world in the new era: Social media and digital ». / In November 2021, I was a speaker for Gwada Girls Teach, an event to inspire youth girls in the Caribbean to join the Tech industry thanks to role models’ motivational pitches. /In December 2021, I was a speaker for Caribbean Design Days “How could we reclaim our Caribbean heritage ?” by design thinking methods. My conference was about: How to scale your business, growth hacking tips in the Caribbean, and Business, tech, and digital strategy in 2021.",
+        "links": [
+            "http://demagnykimberley.com/"
+        ],
+        "appearances": [
+            "Short Talks"
         ]
     }
 ]
