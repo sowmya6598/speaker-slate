@@ -323,5 +323,28 @@
         "appearances": [
             "Short Talks"
         ]
+    },
+    {
+        "name": "Melecia Wright",
+        "bio": "Melecia likes elucidating and mitigating social problems using data. As a data scientist at Murmuration she provides analytic support to nonprofits organizations that work to improve the quality of the public school system. This includes evangelizing on data-driven strategies. She answers critical questions pertaining to which voters will participate in an upcoming election or support a particular education issue. When she was a scientist at the NYC Health Department, she was a principal investigator of a citywide study of hypertension risk in New Yorkers. She is concerned about algorithmic bias and passionate by nurturing the diversity of talent in STEM and data science. She founded Black Data Scientists to facilitate mentorship and networking within that community, and regularly mentors, tutors and coaches others in bootcamps dedicated to building an equitable tech industry. Melecia earned a PhD in Nutrition Epidemiology (UNC-Chapel Hill) and a BA in Molecular Biology (Princeton).",
+        "image": null,
+        "homeCountry": "Jamaica",
+        "currentLocation": "New York City",
+        "currentPosition": "Data Scientist",
+        "category": [
+            "Journey into Tech"
+        ],
+        "contact": {
+            "email": "meleciaw@gmail.com",
+            "linkedIn": "meleciaw",
+            "instagram": null,
+            "twitter": null
+        },
+        "speakingExperience": "Intermediate",
+        "description": "I have done panels for my alumni PhD and Bachelor's institutions to expose students to different pathways for their degrees. I also share analytical insights with clients at work at our annual conferences.",
+        "links": null,
+        "appearances": [
+            "Panel"
+        ]
     }
 ]
